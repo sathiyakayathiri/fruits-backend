@@ -1,7 +1,7 @@
 const express = require('express');
 const cors = require('cors');
 const bodyParser = require('body-parser');
-app.use(cors({"https://vercel.com/sathiyakayathiris-projects/fruits-frontend"}));
+app.use(cors({"https://fruits-frontend-flax.vercel.app/"}));
 
 
 const app = express();
