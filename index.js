@@ -1,13 +1,11 @@
 const express = require('express');
 const cors = require('cors');
 const bodyParser = require('body-parser');
-app.use(cors({"https://fruits-frontend-flax.vercel.app/"}));
-
 
 const app = express();
 const port = 5000;
 
-app.use(cors());
+app.use(cors({"https://fruits-frontend-flax.vercel.app/"}));
 app.use(bodyParser.json());
 
 let fruits = [];
