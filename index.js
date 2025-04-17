@@ -1,6 +1,8 @@
 const express = require('express');
 const cors = require('cors');
 const bodyParser = require('body-parser');
+app.use(cors({"https://vercel.com/sathiyakayathiris-projects/fruits-frontend"}));
+
 
 const app = express();
 const port = 5000;
